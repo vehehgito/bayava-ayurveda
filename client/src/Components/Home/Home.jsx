@@ -7,6 +7,7 @@ import Reviews from "./Reviews";
 import CallToAction from "./CallToAction";
 import GaumataValue from "./GaumataValue";
 import GaumataTreatment from "./GaumataTreatment";
+import MakeAnAppointment from "./MakeAnAppointment";
 
 const Home = () => {
 	return (
@@ -31,6 +32,9 @@ const Home = () => {
 			</div>
 			<div>
 				<Reviews />
+			</div>
+			<div>
+				<MakeAnAppointment />
 			</div>
 			<div>
 				<CallToAction />
