@@ -5,6 +5,9 @@ import ResponsiveBenefits from "./ResponsiveBenefits";
 import HowItWorks from "./HowItWorks";
 import Reviews from "./Reviews";
 import CallToAction from "./CallToAction";
+import GaumataValue from "./GaumataValue";
+import GaumataTreatment from "./GaumataTreatment";
+import MakeAnAppointment from "./MakeAnAppointment";
 
 const Home = () => {
 	return (
@@ -22,7 +25,16 @@ const Home = () => {
 				<HowItWorks />
 			</div>
 			<div>
+				<GaumataValue />
+			</div>
+			<div>
+				<GaumataTreatment />
+			</div>
+			<div>
 				<Reviews />
+			</div>
+			<div>
+				<MakeAnAppointment />
 			</div>
 			<div>
 				<CallToAction />
