@@ -4,7 +4,6 @@ import RedButton from "../Reusables/RedButton";
 import logo from "/DAYA-logo.svg";
 
 function Navbar() {
-
 	const [menu, setMenu] = useState(false);
 
 	const handleMenu = () => {
@@ -14,20 +13,18 @@ function Navbar() {
 	return (
 		<nav className="fixed top-0 left-0 z-50 w-full h-20 flex items-center justify-between px-5 bg-ayurveda-brown text-white drop-shadow-lg min-[1200px]:px-40">
 			<div className="">
-				<h1 className="min-[920px]:text-4xl text-2xl font-bold">
+				<h1 className="lg:text-6xl md:text-3xl sm:text-2xl text-xl font-bold text-white">
 					<Link className="" to="/">
-						<img
-							src={logo}
-							alt="Logo"
-							className="rounded-full h-20 w-20"
-						/>
+						<div className="font-light leading-9 tracking-widest">
+							DAYA
+						</div>
 					</Link>
 				</h1>
 			</div>
 			<div className="min-[788px]:flex hidden">
 				<ul className="flex items-center justify-between gap-5 font-open-sans text-base font-medium">
 					<li>
-                        <Link>Appointments</Link>
+						<Link>Appointments</Link>
 					</li>
 					<li>
 						<Link>Doctors</Link>

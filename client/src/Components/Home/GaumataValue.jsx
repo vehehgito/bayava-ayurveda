@@ -24,8 +24,8 @@ const ValueContent = [
 const GaumataValue = () => {
 	return (
 		<div className="min-h-screen bg-ayurveda-yellow flex flex-col items-center justify-between py-40">
-			<div className="flex flex-col items-center justify-center gap-5">
-				<h1 className="min-[933px]:text-7xl text-4xl font-bold uppercase font-crimson text-center text-ayurveda-brown">
+			<div className="flex flex-col items-center justify-center gap-5 w-full">
+				<h1 className="min-[933px]:text-7xl text-4xl font-bold uppercase font-crimson text-center w-full text-ayurveda-brown">
 					Gaumata Value in Our Life
 				</h1>
 				<p className="prose prose-xl text-center">
