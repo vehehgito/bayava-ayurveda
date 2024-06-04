@@ -12,6 +12,8 @@ export default {
 			mono: ["Inconsolata", "monospace"],
 		},
 		colors: {
+			"ayurveda-green": "#398138",
+			"ayurveda-gold": "#cf9b3f",
 			"ayurveda-brown": "#723421",
 			"ayurveda-red": "#C84A19",
 			"ayurveda-yellow": "#F1E0B7",

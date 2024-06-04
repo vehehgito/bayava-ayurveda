@@ -24,12 +24,12 @@ const Home = () => {
 			<div>
 				<HowItWorks />
 			</div>
-			<div>
+			{/* <div>
 				<GaumataValue />
 			</div>
 			<div>
 				<GaumataTreatment />
-			</div>
+			</div> */}
 			<div>
 				<Reviews />
 			</div>
