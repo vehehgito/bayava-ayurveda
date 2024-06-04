@@ -43,12 +43,12 @@ function Benefits() {
 			</div>
 			<div className="flex flex-col justify-between h-[33rem]">
 				<div className="uppercase flex flex-col h-full justify-between py-24">
-					<h4 className="text-xl font-crimson-pro text-ayurveda-red">Why Ayurveda?</h4>
+					<h4 className="text-xl font-crimson-pro text-ayurveda-brown">Why Ayurveda?</h4>
 					<h1 className="text-3xl">
-                        Benefits of <span className="text-7xl">Ayurveda</span>
+                        Benefits of <span className="text-7xl text-ayurveda-green font-bold">Ayurveda</span>
                     </h1>
 				</div>
-				<div className="flex flex-col justify-between p-5 bg-ayurveda-brown rounded-xl gap-4 drop-shadow-lg">
+				<div className="flex flex-col justify-between p-5 bg-ayurveda-green rounded-xl gap-4 drop-shadow-lg">
 					<p className="text-smoke-yellow">
 						<div>
 							Our programs are designed to help you achieve your

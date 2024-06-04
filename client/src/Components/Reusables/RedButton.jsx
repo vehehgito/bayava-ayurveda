@@ -6,7 +6,7 @@ function RedButton(props) {
 
   return (
     <div className=''>
-        <button onClick={onclick} className="bg-ayurveda-red hover:opacity-70 text-smoke-yellow px-7 py-1 rounded-2xl font-open-sans font-medium md:text-xl text-sm">{text}</button>
+        <button onClick={onclick} className="bg-ayurveda-brown hover:opacity-70 text-white px-7 py-1 rounded-2xl font-open-sans font-medium md:text-xl text-sm">{text}</button>
     </div>
   )
 }
