@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BrownOutlineButton from "../Reusables/BrownOutlineButton";
-import GreenOutlineButton from "../Reusables/GoldOutlineButton";
+import GoldOutlineButton from "../Reusables/GoldOutlineButton";
 
 const Hero = () => {
 	return (
@@ -34,7 +33,7 @@ const Hero = () => {
 					</p>
 					<div>
 						<Link to="/signup" className="">
-							<GreenOutlineButton text="Learn More" />
+							<GoldOutlineButton text="Learn More" />
 						</Link>
 					</div>
 				</div>

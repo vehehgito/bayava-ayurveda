@@ -1,5 +1,5 @@
 import React from "react";
-import RedButton from "../Reusables/RedButton";
+import GreenButton from "../Reusables/GreenButton";
 
 const featuresContent = [
 	{
@@ -83,7 +83,7 @@ const MakeAnAppointment = () => {
 							className="p-3 rounded-md border border-black"
 						></textarea>
 						<div className="w-full flex justify-end">
-                            <RedButton text="Submit" />
+                            <GreenButton text="Submit" />
 						</div>
 					</form>
 				</div>

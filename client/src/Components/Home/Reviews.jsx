@@ -1,5 +1,6 @@
 import React from "react";
 import YellowButton from "../Reusables/YellowButton";
+import GreenButton from "../Reusables/GreenButton";
 
 function Reviews() {
 	const reviewsContent = [
@@ -27,9 +28,9 @@ function Reviews() {
 	];
 
 	return (
-		<div className="min-h-screen bg-ayurveda-brown flex flex-col items-center justify-between py-40">
+		<div className="min-h-screen bg-ayurveda-yellow flex flex-col items-center justify-between py-40">
 			<div>
-				<h1 className="min-[933px]:text-7xl text-4xl font-bold uppercase font-crimson text-center text-ayurveda-yellow">
+				<h1 className="min-[933px]:text-7xl text-4xl font-bold uppercase font-crimson text-center text-ayurveda-green">
 					What our Customers Say?
 				</h1>
 			</div>
@@ -38,7 +39,7 @@ function Reviews() {
                     {
                         reviewsContent.map((review) => {
                             return (
-                                <div key={review.id} className="flex flex-col items-center justify-between gap-3 rounded-md shadow-md drop-shadow-md bg-ayurveda-yellow text-smoke-brown p-12">
+                                <div key={review.id} className="flex flex-col items-center justify-between gap-3 rounded-md shadow-md drop-shadow-md bg-ayurveda-gold text-smoke-brown p-12">
 						<div className="">
 							<div className="">
 								<p className="text-left">
@@ -69,7 +70,7 @@ function Reviews() {
 				</div>
 			</div>
             <div className="">
-                <YellowButton text="View More" />
+                <GreenButton text="View More" />
             </div>
 		</div>
 	);

@@ -7,7 +7,7 @@ function Footer() {
 	const year = new Date().getFullYear();
 
 	return (
-		<div className="bg-ayurveda-brown text-ayurveda-yellow mt-12 flex flex-col justify-between items-center w-full h-full bg-gray-400 md:rounded-tl-[14rem] rounded-t-3xl shadow-lg py-10 text-gray-50 gap-7 md:text-left text-center">
+		<div className="bg-ayurveda-green text-ayurveda-yellow mt-12 flex flex-col justify-between items-center w-full h-full bg-gray-400 md:rounded-tl-[14rem] rounded-t-3xl shadow-lg py-10 text-gray-50 gap-7 md:text-left text-center">
 			<div className="grid md:grid-cols-4 grid-cols-1 w-full md:pl-48 px-10 gap-5">
 				<div className="flex flex-col items-center gap-5">
 					<img src={logo} />
