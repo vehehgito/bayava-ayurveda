@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SmallYellowOutlineButton from "../Reusables/SmallYellowOutlineButton";
 import RedButton from "../Reusables/RedButton";
-import logo from "/DAYA-logo.svg";
 
 function Navbar() {
 	const [menu, setMenu] = useState(false);
@@ -11,7 +11,7 @@ function Navbar() {
 	};
 
 	return (
-		<nav className="fixed top-0 left-0 z-50 w-full h-20 flex items-center justify-between px-5 bg-ayurveda-gold text-white drop-shadow-lg min-[1200px]:px-40">
+		<nav className="fixed top-0 left-0 z-50 w-full h-20 flex items-center justify-between px-5 bg-ayurveda-green text-white drop-shadow-lg min-[1200px]:px-40">
 			<div className="">
 				<h1 className="lg:text-6xl md:text-3xl sm:text-2xl text-xl font-bold text-white">
 					<Link className="" to="/">
@@ -42,7 +42,7 @@ function Navbar() {
 			</div>
 			<div className="min-[788px]:flex hidden items-center justify-between gap-5">
 				<Link to="/signup">
-					<RedButton text="Get Started" />
+					<SmallYellowOutlineButton text="Get Started" />
 				</Link>
 				<select className="bg-ayurveda-gold border border-white min-[920px]:px-5 px-2 py-2 rounded-md outline-none focus:ring-0 font-open-sans text-white">
 					<option>English</option>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import RedButton from "../Reusables/RedButton";
+import BrownOutlineButton from "../Reusables/BrownOutlineButton";
+import GreenOutlineButton from "../Reusables/GoldOutlineButton";
 
 const Hero = () => {
 	return (
@@ -13,7 +14,7 @@ const Hero = () => {
             <h4 className="text-xl text-ayurveda-yellow">
               Consult online with
             </h4>
-						<h1 className="md:text-5xl text-4xl text-ayurveda-red font-bold w-26 shadow-peach">
+						<h1 className="md:text-5xl text-4xl text-ayurveda-gold font-bold w-26 shadow-peach">
 							Ayurveda
 						</h1>
 						<span className="md:text-7xl text-5xl text-white font-bold shadow-smoke-yellow drop-shadow-md">
@@ -33,7 +34,7 @@ const Hero = () => {
 					</p>
 					<div>
 						<Link to="/signup" className="">
-							<RedButton text="Learn More" />
+							<GreenOutlineButton text="Learn More" />
 						</Link>
 					</div>
 				</div>
